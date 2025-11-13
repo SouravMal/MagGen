@@ -1,6 +1,6 @@
 # MagGen
 
-A graph-aided conditional generative model, based on variational autoencoder architecture, used to inverse design permanent magnet candiadtes.
+A graph-aided conditional generative model, based on variational autoencoder architecture, used to inverse design permanent magnet candidates.
 
 
 ## Overview
