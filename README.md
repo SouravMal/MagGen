@@ -15,7 +15,7 @@ MagGen implements following imporatant features:
 
 4. **Graph-Theory** : Graph-theoretic analysis have been performed in the latent space for efficient property-guided sampling.
   
-<img src="images/img1.png" alt="MagGen Schematic" width="550">
+<img src="images/img1.png" alt="MagGen Schematic" width="650">
 
 ---
 
