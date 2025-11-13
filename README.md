@@ -1,17 +1,28 @@
 # MagGen
-MagGen: A Graph-Aided Deep Generative Model for Inverse Design of Permanent Magnets
+
+A graph-aided conditional generative model, based on variational autoencoder architecture, used to inverse design permanent magnet candiadtes.
 
 
-DiffCrysGen is a score-based diffusion model. It treats the entire materials representation with a single, unified diffusion process, allowing a single denosing neural network to predict a holistic score for the entire noisy crystal data. This unified treatment significantly simplifies the architecture and improves the computational efficiency.
+## Overview
 
+MagGen implements three imporatant features: 
 
-## Generative diffusion framework in DiffCrysGen
+1. **IRCR** : It uses invertible real space crystallographic representaion (IRCR) to encode raw crystal structure data.
+
+2. **Conditional VAE** : It is based on a variational autoencoder (VAE) model, conditioned simultaneously on two target properties.
+
+3. **Local Perturbation** : It uses Lp scheme to generate new materials by perturbing a parent material.
+
+  
 <img src="images/img1.png" alt="MagGen Schematic" width="550">
 
 ---
 
-## Architecture of the denoising neural network
-<img src="images/scale-factor.png" alt="New material generation" width="750">
+## New Material Generation
+
+Schematic diagram illustrating the generation of new materials via local perturbation across a parent material, based on different scale factors for the perturbation.
+
+<img src="images/scale-factor.png" alt="New material generation" width="550">
 
 ---
 
