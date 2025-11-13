@@ -2,6 +2,7 @@ import numpy as np
 
 from sklearn.preprocessing import MinMaxScaler
 
+# Taken from FTCP paper.
 
 def pad(FTCP, pad_width):
     '''
