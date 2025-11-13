@@ -13,7 +13,7 @@ MagGen implements following imporatant features:
 
 3. **Local Perturbation** : It uses Lp scheme to generate new materials by perturbing a parent material.
 
-4. **Graph-Theoratic Analysis ** : Graph-theoretic analysis have been performed in the latent space for efficient property-guided sampling.
+4. **Graph-Theory** : Graph-theoretic analysis have been performed in the latent space for efficient property-guided sampling.
   
 <img src="images/img1.png" alt="MagGen Schematic" width="550">
 
